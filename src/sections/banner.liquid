@@ -1,0 +1,33 @@
+<section class="banner">
+  <img class="banner__image" src="https://cdn.shopify.com/s/files/1/1660/8245/files/patrick-tomasso-216284-unsplash.jpg?2386" alt="Nice image" />
+  <div class="banner__content">
+    <h2 class="banner__headline">{{ section.settings.headline }}</h2>
+    <p class="banner__text">{{ section.settings.text }}</p>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "Banner",
+    "settings": [
+      {
+        "type": "text",
+        "id": "headline",
+        "label": "Headline",
+        "default": "Headline"
+      },
+      {
+        "type": "textarea",
+        "id": "text",
+        "label": "Text",
+        "default": "Sheezy crazy dolor izzle amizzle, consectetuer adipiscing i saw beyonces tizzles and my pizzle went crizzle."
+      }
+    ],
+    "presets": [
+      {
+        "category": "Image w/ Text",
+        "name": "Banner"
+      }
+    ]
+  }
+{% endschema %}

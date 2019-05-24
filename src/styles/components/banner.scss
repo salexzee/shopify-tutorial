@@ -1,0 +1,37 @@
+.banner {
+  position: relative;
+  width: 100%;
+}
+
+.banner__image {
+  max-width: 100%;
+}
+
+.banner__content {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+  color: white;
+  left: 50px;
+  width: 600px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition-duration: 200ms;
+  transition-timing-function: ease-out;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+}
+
+.banner__headline {
+  font-size: 3em;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.banner__text {
+  font-size: 1.8em;
+  margin: 0;
+}
