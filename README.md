@@ -1,46 +1,13 @@
-[![Build Status](https://travis-ci.org/Shopify/starter-theme.svg?branch=master)](https://travis-ci.org/Shopify/starter-theme)
+# Build a Shopify Site from Scratch -- YouTube Series
 
-# Starter Theme
+This is the code behind the Shopify theme I'm buildng in my YouTube series: Build a Shopify Site from Scratch. The first commit was for episode 2 and the second commit was from episode 4. From here each episode will have it's own commit and I'll list those out below to make them easy to follow. What I won't list below are the commits I make for any behind the scenes code updates or code updates I make for videos that aren't part of this series.
 
-> **Starter Theme and [Slate v1](https://github.com/Shopify/slate) are currently in beta!** You should expect potentially breaking changes between updates and more bugs than a finalized release. Slate v1.0 has not yet been tested on Windows.
+## Episode Commits
 
-Starter Theme represents the Shopify Themes Team's opinionated starting point for new Slate theme projects. It strives to include up-to-date best practices and solutions that we have deemed needed for the majority of themes we build. It is a reflection of what’s possible when building a theme!
+- Episode 2: https://github.com/salexzee/shopify-tutorial/commit/7a88d0e5dae30da92612aef8e14bf54254ad850c
+- Episode 4: https://github.com/salexzee/shopify-tutorial/commit/6b5e9752a3d18e43fc617039f2ee674f5956359b
 
-## Intentional lack of styles
-
-When launching Starter Theme for the first time, you may notice a lack of CSS styles. Is Starter Theme broken? Definitely not! Keep in mind this was done intentionally. Starter Theme is not a framework but rather a starting point for your project. It contains all the files the Shopify Themes team considers to be the bare essentials to building a Shopify theme.
-
-For templates and snippets, standard Liquid tags and logic have been included with little to no markup, classes, or other code that you will need to remove. The [`src/styles/theme.scss`](https://github.com/Shopify/starter-theme/blob/master/src/assets/styles/theme.scss) file contains extremely limited styling to not get in the way of developers' CSS preferences. The JavaScript files contain most of our [helper scripts](https://github.com/Shopify/theme-scripts/tree/master/packages) and [lazysizes](https://github.com/aFarkas/lazysizes) for responsive image lazy loading.
-
-## System requirements
-
-You'll want to ensure you have the following already installed on your local machine before getting started with Starter theme:
-
-- **Node:** The current LTS (long-term support) release. We like to use a Node Version Manager like [NVM](https://github.com/creationix/nvm).
-
-- **NPM 5+ or Yarn:** Both of these package managers have [ups and downs](https://blog.risingstack.com/yarn-vs-npm-node-js-package-managers/), choose whichever you prefer. Follow the installation instructions [for Yarn](https://yarnpkg.com/en/docs/install) or [NPM](https://www.npmjs.com/get-npm) to make sure you're using the latest version.
-
-## Getting started
-
-To get started with Starter Theme, run the following command in your terminal:
-
-```
-$ yarn create slate-theme my-new-theme
-```
-
-For more information on connecting your new project with a Shopify store, see the [Slate docs](https://github.com/Shopify/slate/wiki/3.-Connect-to-your-store).
-
-## Contributing
-
-For help on setting up the repository locally, building, testing, and contributing
-please see [CONTRIBUTING.md](https://github.com/Shopify/starter-theme/blob/master/CONTRIBUTING.md).
-
-## Code of Conduct
-
-All developers who wish to contribute through code or issues, take a look at the
-[Code of Conduct](https://github.com/Shopify/starter-theme/blob/master/CODE_OF_CONDUCT.md).
-
-## License
+## Slate License
 
 Copyright © 2018 Shopify. See [LICENSE](https://github.com/Shopify/starter-theme/blob/master/LICENSE) for further details.
 
