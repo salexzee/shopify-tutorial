@@ -1,6 +1,7 @@
 html {
   background-color: $color-body;
   box-sizing: border-box;
+  color: #494949;
 }
 
 *,
@@ -13,3 +14,31 @@ body,
 html {
   height: 100%;
 }
+
+html,
+body,
+section,
+aside,
+main,
+header,
+footer,
+div,
+ul,
+li {
+  line-height: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+span,
+strong,
+em {
+  line-height: 1.2;
+}
+
