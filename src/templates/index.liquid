@@ -1,7 +1,18 @@
-<h1>Homepage</h1>
-
 {{ content_for_index }}
 
-{% include 'split-content' %}
+{% assign split_content_image = 'diego-molina-759131-unsplash.jpg' | file_img_url: '1000x1000', crop: 'center' %}
 
-{% include 'split-content-flipped' %}
+{% include 'split-content' with {
+  image: split_content_image,
+  headline: 'Glass Mug',
+  copy: 'Lorem ipsum dolor amet literally occupy food truck lumbersexual lyft jianbing chartreuse. Franzen flannel hella activated charcoal chambray selfies you probably have not heard of them austin. Palo santo 8-bit wolf poke tumblr plaid. Retro etsy mustache taiyaki ennui.'
+} %}
+
+{% assign split_content_image = 'daniele-levis-pelusi-672107-unsplash.jpg' | file_img_url: '1000x1000', crop: 'center' %}
+
+{% include 'split-content' with {
+  image: split_content_image,
+  headline: 'Watch Frame',
+  copy: 'Intelligentsia tousled helvetica messenger bag, master cleanse lo-fi distillery four dollar toast vaporware echo park marfa iPhone. Jean shorts +1 disrupt, retro slow-carb etsy you probably have not heard of them bespoke adaptogen authentic vexillologist hell of palo santo poke.',
+  flipped: true
+} %}
