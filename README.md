@@ -1,5 +1,9 @@
 # Build a Shopify Site from Scratch -- YouTube Series
 
+[YouTube Channel](https://www.youtube.com/channel/UC9O4gwFcIrBqAVEtrRPGFNw)
+
+[Create a Shopify Account](https://www.shopify.com/?ref=samuelwebb)
+
 This is the code behind the Shopify theme I'm buildng in my YouTube series: Build a Shopify Site from Scratch. The first commit was for episode 2 and the second commit was from episode 4. From here each episode will have it's own commit and I'll list those out below to make them easy to follow. What I won't list below are the commits I make for any behind the scenes code updates.
 
 ```
